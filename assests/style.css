@@ -1,0 +1,125 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  width: 100%;
+  height: max-content;
+}
+.hidden {
+  display: none;
+}
+h2 {
+  color: #4fb0b5;
+}
+.navbar {
+  margin: 15px;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+  color: #2a8387;
+  position: sticky;
+  background-color: white;
+}
+.navbar a {
+  text-decoration: none;
+  color: #2a8387;
+}
+.navbar a:hover {
+  color: #0aa6af;
+  text-decoration: underline;
+}
+.container {
+  margin: 20px;
+  padding: 2vw;
+  text-align: center;
+  gap: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+}
+#verification_button {
+  background-color: #36a9ae;
+  border: 1px solid #2a8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px;
+}
+#verification_button:hover {
+  text-decoration: none;
+  background-color: #4fb0b5;
+  border: 1px solid #398a8f;
+}
+#userInput {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+  height: 20px;
+  width: 300px;
+  padding: 10px;
+  margin: 15px;
+}
+/* quiz page css */
+.question {
+  margin: 1vw;
+  padding: 15px;
+  gap: 10px;
+}
+.question p {
+  padding-bottom: 5px;
+}
+.btn_submit {
+  padding: 15px;
+  background-color: #398a8f;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+.btn_submit:hover {
+  background-color: #36a9ae;
+}
+/* .container2 {
+  display: none;
+} */
+#result {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 15px;
+  bottom: 0;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 220px;
+  width: max-content;
+  height: max-content;
+  border-radius: 15px;
+  border: #0aa6af 1px solid;
+}
+/* image pop page */
+.ctr_gallery {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.ctr_gallery img {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: 250px;
+  width: 250px;
+  border-radius: 15px;
+  cursor: pointer;
+}
