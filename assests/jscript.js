@@ -1,3 +1,4 @@
+/* Captcha*/
 var character = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var currentcaptcha;
 
